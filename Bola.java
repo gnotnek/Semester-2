@@ -22,7 +22,5 @@ class Bola{
 
         System.out.println("Luas permukaan = "+ bola1.luasP()+" cm^2");
         System.out.println("Volume Bola = "+ bola1.volume()+" cm^3");
-
-
     }
 }
