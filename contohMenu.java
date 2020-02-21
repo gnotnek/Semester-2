@@ -27,5 +27,5 @@ class contohMenu{
                 y = false;
             }
         }while(y==true);
-       } 
-    }
+    } 
+}
