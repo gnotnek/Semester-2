@@ -13,7 +13,7 @@ class contohMenu{
             boolean y = true;
             do{
             System.out.println("Menu: ");
-            System.out.println("1. Input nilai \n2. Tampilan menu \n 3. Keluar");
+            System.out.println("1. Input nilai \n2. Tampilan menu \n3. Keluar");
 
             int x = inpt.nextInt();
 
