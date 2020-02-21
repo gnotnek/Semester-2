@@ -10,6 +10,8 @@ class contohMenu{
 
     public static void main(String[] args) {
             Scanner inpt = new Scanner(System.in);
+            boolean y = true;
+            do{
             System.out.println("Menu: ");
             System.out.println("1. Input nilai \n2. Tampilan menu \n 3. Keluar");
 
@@ -17,10 +19,13 @@ class contohMenu{
 
             if(x==1){
                 System.out.println(inputNilai());
+                y = true;
             }else if(x==2){
                 System.out.println(tampilanNilai());
-            }else{
-                System.exit(2);
+                y = true;
+            }else if(x==3){
+                y = false;
             }
+        }while(y==true);
+       } 
     }
-}
